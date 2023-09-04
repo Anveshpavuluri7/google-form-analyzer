@@ -1,0 +1,1 @@
+return render_template('result.html', count=count, positive=positive, neutral=neutral, negative=negative)
