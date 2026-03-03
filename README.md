@@ -32,3 +32,18 @@ This tool helps you quickly understand the sentiment distribution (Positive / Ne
 ```bash
 git clone https://github.com/Anveshpavuluri7/google-form-analyzer.git
 cd google-form-analyzer
+```
+### 2. Create and activate a Python environment
+```bash
+python3 -m venv venv
+source venv/bin/activate   # macOS / Linux
+venv\Scripts\activate      # Windows
+```
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. Run the app
+```bash
+python app.py
+```
